@@ -46,7 +46,7 @@ A modern SaaS application for monitoring website uptime and performance.
    ```
 4. Start the backend server:
    ```bash
-   npm run dev
+   npm run start
    ```
 
 ### Frontend Setup
