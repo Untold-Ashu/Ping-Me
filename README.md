@@ -1,4 +1,4 @@
-# SitePulse - Website Uptime Monitoring SaaS
+# Ping-Me - Website Uptime Monitoring SaaS
 
 A modern SaaS application for monitoring website uptime and performance.
 
@@ -46,7 +46,7 @@ A modern SaaS application for monitoring website uptime and performance.
    ```
 4. Start the backend server:
    ```bash
-   npm run dev
+   npm run start
    ```
 
 ### Frontend Setup
@@ -71,13 +71,15 @@ A modern SaaS application for monitoring website uptime and performance.
 ## Project Structure
 
 ```
-sitepulse/
+Ping-Me/
 ├── backend/
-│   ├── src/
+│   ├── src/__
+│   │   ├── controllers/
+│   │   ├── middlewares/
 │   │   ├── models/
 │   │   ├── routes/
-│   │   ├── controllers/
 │   │   ├── services/
+│   │   ├── tests/
 │   │   └── utils/
 │   ├── package.json
 │   └── .env
